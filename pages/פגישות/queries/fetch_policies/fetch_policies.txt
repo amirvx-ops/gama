@@ -1,0 +1,1 @@
+SELECT * FROM gama_policies ORDER BY policy_date DESC LIMIT 500
