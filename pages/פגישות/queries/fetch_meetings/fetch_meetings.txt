@@ -1,1 +1,1 @@
-SELECT * FROM gama_meetings ORDER BY meeting_date DESC LIMIT 500
+SELECT * FROM gama_meetings ORDER BY created_at DESC LIMIT 500
