@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "6a572e213edd1ecd302777c9_8348ef13-fc26-48e9-9aa7-b58f626af6f4",
-  "id": "פגישות_fetch_meetings",
+  "gitSyncId": "6a572e213edd1ecd302777c9_eb57b0d6-5bd4-46e0-a682-72320bf3d742",
+  "id": "פגישות_get_meeting_statuses",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT id, event_type, record_id, created_time, id_number, name, meeting_status, sent_at FROM gama_meetings WHERE (COALESCE({{status_filter.selectedOptionValue}}, '') = '' OR meeting_status = {{status_filter.selectedOptionValue}}) ORDER BY created_time DESC\n",
+      "body": "SELECT DISTINCT meeting_status AS \"label\", meeting_status AS \"value\" FROM gama_meetings WHERE meeting_status IS NOT NULL ORDER BY 1\n",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -22,12 +22,8 @@
       "name": "Supabase",
       "pluginId": "postgres-plugin"
     },
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
-    "name": "fetch_meetings",
+    "dynamicBindingPathList": [],
+    "name": "get_meeting_statuses",
     "pageId": "פגישות",
     "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false

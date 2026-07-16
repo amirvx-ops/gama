@@ -1,1 +1,1 @@
-SELECT * FROM gama_meetings ORDER BY created_at DESC LIMIT 500
+SELECT id, event_type, record_id, created_time, id_number, name, meeting_status, sent_at FROM gama_meetings WHERE (COALESCE({{status_filter.selectedOptionValue}}, '') = '' OR meeting_status = {{status_filter.selectedOptionValue}}) ORDER BY created_time DESC

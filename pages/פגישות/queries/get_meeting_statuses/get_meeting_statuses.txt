@@ -1,0 +1,1 @@
+SELECT DISTINCT meeting_status AS "label", meeting_status AS "value" FROM gama_meetings WHERE meeting_status IS NOT NULL ORDER BY 1
