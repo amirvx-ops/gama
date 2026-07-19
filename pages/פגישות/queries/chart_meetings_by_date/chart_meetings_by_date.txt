@@ -1,0 +1,1 @@
+SELECT TO_CHAR(created_time::date, 'DD/MM/YYYY') AS "date", COUNT(*) AS "count" FROM gama_meetings GROUP BY created_time::date ORDER BY created_time::date

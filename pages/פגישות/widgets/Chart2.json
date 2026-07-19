@@ -4,15 +4,15 @@
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 101,
-  "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "chartData": {
-    "mquwn0bplh": {
-      "data": "{{[{x: \"התקיימה\", y: count_meetings_stats.data[0].held}, {x: \"לא התקיימה\", y: count_meetings_stats.data[0].not_held}, {x: \"נדחתה\", y: count_meetings_stats.data[0].postponed}]}}",
-      "seriesName": "סטטוס פגישות"
+    "gchum92h2v": {
+      "data": "{{chart_meetings_by_date.data.map(r => ({x: r.date, y: r.count}))}}\n",
+      "seriesName": "פגישות"
     }
   },
-  "chartName": "סטטוס פגישות",
-  "chartType": "PIE_CHART",
+  "chartName": "פגישות לפי תאריך",
+  "chartType": "COLUMN_CHART",
   "customEChartConfig": "{{\n{\n  \"dataset\": {\n    \"source\": [\n      [\n        \"Day\",\n        \"Baidu\",\n        \"Google\",\n        \"Bing\"\n      ],\n      [\n        \"Mon\",\n        620,\n        120,\n        60\n      ],\n      [\n        \"Tue\",\n        732,\n        132,\n        72\n      ],\n      [\n        \"Wed\",\n        701,\n        101,\n        71\n      ],\n      [\n        \"Thu\",\n        734,\n        134,\n        74\n      ],\n      [\n        \"Fri\",\n        1090,\n        290,\n        190\n      ],\n      [\n        \"Sat\",\n        1130,\n        230,\n        130\n      ],\n      [\n        \"Sun\",\n        1120,\n        220,\n        110\n      ]\n    ]\n  },\n  \"tooltip\": {\n    \"trigger\": \"axis\",\n    \"axisPointer\": {\n      \"type\": \"shadow\"\n    }\n  },\n  \"title\": {\n    \"text\": \"Search Engine Usage\",\n    \"left\": \"center\",\n    \"textStyle\": {\n      \"width\": 200,\n      \"overflow\": \"truncate\"\n    }\n  },\n  \"legend\": {\n    \"top\": 40,\n    \"type\": \"scroll\"\n  },\n  \"grid\": {\n    \"left\": 15,\n    \"right\": 15,\n    \"bottom\": 30,\n    \"top\": 100,\n    \"containLabel\": true\n  },\n  \"xAxis\": [\n    {\n      \"type\": \"category\"\n    }\n  ],\n  \"yAxis\": [\n    {\n      \"type\": \"value\"\n    }\n  ],\n  \"series\": [\n    {\n      \"type\": \"bar\",\n      \"stack\": \"Search Engine\"\n    },\n    {\n      \"type\": \"bar\",\n      \"stack\": \"Search Engine\"\n    },\n    {\n      \"type\": \"bar\",\n      \"stack\": \"Search Engine\"\n    }\n  ]\n}\n}}",
   "customFusionChartConfig": {
     "dataSource": {
@@ -69,13 +69,16 @@
       "key": "borderRadius"
     },
     {
+      "key": "boxShadow"
+    },
+    {
       "key": "accentColor"
     },
     {
       "key": "fontFamily"
     },
     {
-      "key": "chartData.mquwn0bplh.data"
+      "key": "chartData.gchum92h2v.data"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -83,14 +86,14 @@
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "isLoading": false,
   "isVisible": true,
-  "key": "t2il44gwb5",
+  "key": "p0zjpa41s5",
   "labelOrientation": "auto",
-  "leftColumn": 32,
+  "leftColumn": 3,
   "minWidth": 450,
-  "mobileBottomRow": 102,
-  "mobileLeftColumn": 37,
-  "mobileRightColumn": 61,
-  "mobileTopRow": 70,
+  "mobileBottomRow": 107,
+  "mobileLeftColumn": 4,
+  "mobileRightColumn": 28,
+  "mobileTopRow": 75,
   "needsErrorInfo": true,
   "originalBottomRow": 101,
   "originalTopRow": 75,
@@ -99,13 +102,13 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 62,
+  "rightColumn": 31,
   "showDataPointLabel": false,
   "topRow": 75,
   "type": "CHART_WIDGET",
   "version": 1,
-  "widgetId": "p2kgbfydij",
-  "widgetName": "Chart1",
-  "xAxisName": "Product Line",
-  "yAxisName": "Revenue($)"
+  "widgetId": "mw6poqt7n1",
+  "widgetName": "Chart2",
+  "xAxisName": "date",
+  "yAxisName": "פגישות"
 }
