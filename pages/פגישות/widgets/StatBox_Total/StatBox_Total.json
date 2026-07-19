@@ -1,15 +1,15 @@
 {
   "animateLoading": true,
-  "backgroundColor": "white",
+  "backgroundColor": "#dbeafe",
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 24,
+  "bottomRow": 22,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 120,
+      "bottomRow": 100,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -59,6 +59,7 @@
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "stretch",
   "isCanvas": true,
   "isLoading": false,
@@ -72,7 +73,7 @@
   "mobileRightColumn": 18,
   "mobileTopRow": 13,
   "needsErrorInfo": false,
-  "originalBottomRow": 24,
+  "originalBottomRow": 22,
   "originalTopRow": 12,
   "parentColumnSpace": 14.234375,
   "parentId": "0",
@@ -80,10 +81,10 @@
   "positioning": "fixed",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 63,
+  "rightColumn": 62,
   "shouldScrollContents": true,
   "topRow": 12,
   "type": "STATBOX_WIDGET",
   "widgetId": "d2mqegbddk",
-  "widgetName": "_____"
+  "widgetName": "StatBox_Total"
 }

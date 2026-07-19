@@ -1,15 +1,15 @@
 {
   "animateLoading": true,
-  "backgroundColor": "white",
+  "backgroundColor": "#dbeafe",
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 25,
+  "bottomRow": 22,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 140,
+      "bottomRow": 100,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -38,7 +38,7 @@
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "xz2oc22r5n",
+      "parentId": "eremunepow",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -46,8 +46,8 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "hsoc19k7s9",
-      "widgetName": "Canvas1CopyCopy"
+      "widgetId": "0b2qlwg1kw",
+      "widgetName": "Canvas1Copy"
     }
   ],
   "dynamicBindingPathList": [
@@ -59,12 +59,13 @@
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "stretch",
   "isCanvas": true,
   "isLoading": false,
   "isVisible": true,
   "key": "emd76bwcn5",
-  "leftColumn": 3,
+  "leftColumn": 43,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "mobileBottomRow": 27,
@@ -72,18 +73,18 @@
   "mobileRightColumn": 18,
   "mobileTopRow": 13,
   "needsErrorInfo": false,
-  "originalBottomRow": 25,
-  "originalTopRow": 11,
+  "originalBottomRow": 22,
+  "originalTopRow": 12,
   "parentColumnSpace": 14.234375,
   "parentId": "0",
   "parentRowSpace": 10,
   "positioning": "fixed",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 21,
+  "rightColumn": 52,
   "shouldScrollContents": true,
-  "topRow": 11,
+  "topRow": 12,
   "type": "STATBOX_WIDGET",
-  "widgetId": "xz2oc22r5n",
-  "widgetName": "_____CopyCopy"
+  "widgetId": "eremunepow",
+  "widgetName": "StatBox_Held"
 }

@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 6,
+  "bottomRow": 8,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -11,41 +11,43 @@
     },
     {
       "key": "borderRadius"
+    },
+    {
+      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "0.875rem",
+  "fontSize": "1.25rem",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
   "key": "lke6flbocm",
-  "leftColumn": 8,
+  "leftColumn": 19,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 4,
+  "mobileBottomRow": 8,
   "mobileLeftColumn": 1,
   "mobileRightColumn": 37,
-  "mobileTopRow": 0,
+  "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "originalBottomRow": 6,
-  "originalTopRow": 1,
+  "originalBottomRow": 10,
+  "originalTopRow": 6,
   "overflow": "NONE",
-  "parentId": "hsoc19k7s9",
+  "parentId": "mcbh71o0fn",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 36,
-  "shouldScrollContents": true,
+  "rightColumn": 39,
   "shouldTruncate": false,
-  "text": "אחוז פגישות שהתקיימו",
-  "textAlign": "RIGHT",
-  "textColor": "#999999",
-  "topRow": 1,
+  "text": "{{count_meetings_stats.data[0].not_held}}",
+  "textAlign": "CENTER",
+  "textColor": "#231F20",
+  "topRow": 4,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "dyu3xdtwj8",
-  "widgetName": "Text2CopyCopy"
+  "widgetId": "jne5w3ijo3",
+  "widgetName": "Text3CopyCopyCopy"
 }

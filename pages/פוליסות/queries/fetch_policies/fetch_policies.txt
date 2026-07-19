@@ -1,1 +1,1 @@
-SELECT * FROM gama_policies ORDER BY created_at DESC LIMIT 500
+SELECT * FROM gama_policies WHERE (COALESCE({{company_filter.selectedOptionValue}}, '') = '' OR company = {{company_filter.selectedOptionValue}}) ORDER BY created_at DESC LIMIT 500

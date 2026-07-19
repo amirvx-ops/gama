@@ -2,9 +2,9 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 33,
+  "bottomRow": 34,
   "boxShadow": "none",
-  "defaultOptionValue": "",
+  "defaultOptionValue": "\"\"",
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
@@ -20,6 +20,12 @@
   "dynamicPropertyPathList": [
     {
       "key": "sourceData"
+    },
+    {
+      "key": "optionLabel"
+    },
+    {
+      "key": "optionValue"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -28,37 +34,37 @@
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "yadtodq8io",
+  "key": "23pkryfckt",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelText": "",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 42,
+  "leftColumn": 43,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 35,
-  "mobileLeftColumn": 39,
-  "mobileRightColumn": 59,
-  "mobileTopRow": 28,
+  "mobileBottomRow": 28,
+  "mobileLeftColumn": 43,
+  "mobileRightColumn": 63,
+  "mobileTopRow": 21,
   "needsErrorInfo": false,
   "optionLabel": "label",
   "optionValue": "value",
-  "originalBottomRow": 33,
-  "originalTopRow": 26,
+  "originalBottomRow": 28,
+  "originalTopRow": 21,
   "parentColumnSpace": 14.234375,
   "parentId": "0",
   "parentRowSpace": 10,
-  "placeholderText": "סטטוס",
+  "placeholderText": "חברה",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 62,
+  "rightColumn": 63,
   "serverSideFiltering": false,
-  "sourceData": "{{get_meeting_statuses.data}}",
-  "topRow": 26,
+  "sourceData": "{{fetch_policies.data.map(r => ({label: r.company, value: r.company})).filter((v,i,a) => a.findIndex(t => t.value === v.value) === i)}}",
+  "topRow": 27,
   "type": "SELECT_WIDGET",
   "version": 1,
-  "widgetId": "nou0ofind3",
-  "widgetName": "status_filter"
+  "widgetId": "n8dphlto0z",
+  "widgetName": "company_filter"
 }

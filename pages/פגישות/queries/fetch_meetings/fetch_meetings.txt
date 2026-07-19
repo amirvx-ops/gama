@@ -1,1 +1,2 @@
-SELECT id, event_type, record_id, created_time, id_number, name, meeting_status, sent_at FROM gama_meetings WHERE (COALESCE({{status_filter.selectedOptionValue}}, '') = '' OR meeting_status = {{status_filter.selectedOptionValue}}) ORDER BY created_time DESC
+SELECT id, event_type, record_id, TO_CHAR(created_time, 'DD/MM/YYYY') AS created_time, id_number, name, meeting_status, TO_CHAR(sent_at::timestamptz, 'DD/MM/YYYY HH24:MI') AS sent_at FROM gama_meetings WHERE (COALESCE({{status_filter.selectedOptionValue}}, '') = '' OR meeting_status = {{status_filter.selectedOptionValue}}) ORDER BY gama_meetings.created_time DESC
+
