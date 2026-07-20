@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 12,
+  "bottomRow": 8,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -24,7 +24,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "zwuowxcmqv",
-  "leftColumn": 1,
+  "leftColumn": 16,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -36,18 +36,18 @@
   "originalBottomRow": 9,
   "originalTopRow": 5,
   "overflow": "NONE",
-  "parentId": "ydorqqd53m",
+  "parentId": "hv57dvntsr",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 37,
+  "rightColumn": 52,
   "shouldTruncate": false,
-  "text": "{{count_policies_stats.data[0].total_policies}}",
+  "text": "{{count_policies_stats.data[0].total_premia}}",
   "textAlign": "RIGHT",
-  "textColor": "#231F20",
-  "topRow": 8,
+  "textColor": "#1e3a8a",
+  "topRow": 4,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "9wm9ielf8c",
-  "widgetName": "Text3"
+  "widgetId": "etul2r90p2",
+  "widgetName": "Text3CopyCopy"
 }

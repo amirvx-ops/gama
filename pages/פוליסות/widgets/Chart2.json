@@ -3,15 +3,15 @@
   "allowScroll": false,
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 101,
+  "bottomRow": 94,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "chartData": {
-    "gchum92h2v": {
-      "data": "{{chart_meetings_by_date.data.map(r => ({x: r.date, y: r.count}))}}\n",
-      "seriesName": "פגישות"
+    "6ouos35u13": {
+      "data": "{{chart_policies_by_company.data.map(r => ({x: r.company, y: r.count}))}}",
+      "seriesName": "פוליסות"
     }
   },
-  "chartName": "פגישות לפי תאריך",
+  "chartName": "פוליסות לפי חברה",
   "chartType": "COLUMN_CHART",
   "customEChartConfig": "{{\n{\n  \"dataset\": {\n    \"source\": [\n      [\n        \"Day\",\n        \"Baidu\",\n        \"Google\",\n        \"Bing\"\n      ],\n      [\n        \"Mon\",\n        620,\n        120,\n        60\n      ],\n      [\n        \"Tue\",\n        732,\n        132,\n        72\n      ],\n      [\n        \"Wed\",\n        701,\n        101,\n        71\n      ],\n      [\n        \"Thu\",\n        734,\n        134,\n        74\n      ],\n      [\n        \"Fri\",\n        1090,\n        290,\n        190\n      ],\n      [\n        \"Sat\",\n        1130,\n        230,\n        130\n      ],\n      [\n        \"Sun\",\n        1120,\n        220,\n        110\n      ]\n    ]\n  },\n  \"tooltip\": {\n    \"trigger\": \"axis\",\n    \"axisPointer\": {\n      \"type\": \"shadow\"\n    }\n  },\n  \"title\": {\n    \"text\": \"Search Engine Usage\",\n    \"left\": \"center\",\n    \"textStyle\": {\n      \"width\": 200,\n      \"overflow\": \"truncate\"\n    }\n  },\n  \"legend\": {\n    \"top\": 40,\n    \"type\": \"scroll\"\n  },\n  \"grid\": {\n    \"left\": 15,\n    \"right\": 15,\n    \"bottom\": 30,\n    \"top\": 100,\n    \"containLabel\": true\n  },\n  \"xAxis\": [\n    {\n      \"type\": \"category\"\n    }\n  ],\n  \"yAxis\": [\n    {\n      \"type\": \"value\"\n    }\n  ],\n  \"series\": [\n    {\n      \"type\": \"bar\",\n      \"stack\": \"Search Engine\"\n    },\n    {\n      \"type\": \"bar\",\n      \"stack\": \"Search Engine\"\n    },\n    {\n      \"type\": \"bar\",\n      \"stack\": \"Search Engine\"\n    }\n  ]\n}\n}}",
   "customFusionChartConfig": {
@@ -78,7 +78,7 @@
       "key": "fontFamily"
     },
     {
-      "key": "chartData.gchum92h2v.data"
+      "key": "chartData.6ouos35u13.data"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -86,30 +86,29 @@
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
   "isLoading": false,
   "isVisible": true,
-  "key": "p0zjpa41s5",
+  "key": "xhr5qv7pda",
   "labelOrientation": "auto",
   "leftColumn": 3,
   "minWidth": 450,
-  "mobileBottomRow": 107,
-  "mobileLeftColumn": 4,
-  "mobileRightColumn": 28,
-  "mobileTopRow": 75,
+  "mobileBottomRow": 92,
+  "mobileLeftColumn": 5,
+  "mobileRightColumn": 29,
+  "mobileTopRow": 60,
   "needsErrorInfo": true,
-  "originalBottomRow": 101,
-  "originalTopRow": 75,
+  "originalBottomRow": 94,
+  "originalTopRow": 62,
   "parentColumnSpace": 14.234375,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 31,
-  "setAdaptiveYMin": false,
+  "rightColumn": 30,
   "showDataPointLabel": true,
-  "topRow": 75,
+  "topRow": 62,
   "type": "CHART_WIDGET",
   "version": 1,
-  "widgetId": "mw6poqt7n1",
+  "widgetId": "a8ium07hu2",
   "widgetName": "Chart2",
-  "xAxisName": "date",
-  "yAxisName": "פגישות"
+  "xAxisName": "חברה",
+  "yAxisName": "פוליסות"
 }

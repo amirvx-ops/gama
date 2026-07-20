@@ -1,0 +1,1 @@
+SELECT company, COUNT(*) AS count FROM gama_policies GROUP BY company ORDER BY count DESC

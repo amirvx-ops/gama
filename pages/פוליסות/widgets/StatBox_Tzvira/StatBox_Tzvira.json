@@ -1,10 +1,10 @@
 {
   "animateLoading": true,
-  "backgroundColor": "white",
+  "backgroundColor": "#dbeafe",
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 22,
+  "bottomRow": 19,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
@@ -38,7 +38,7 @@
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "199gt3kqws",
+      "parentId": "srwm4v85wo",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -46,8 +46,8 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "hv57dvntsr",
-      "widgetName": "Canvas1CopyCopy"
+      "widgetId": "vzq0yn285b",
+      "widgetName": "Canvas1Copy"
     }
   ],
   "dynamicBindingPathList": [
@@ -59,6 +59,7 @@
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [],
   "flexVerticalAlignment": "stretch",
   "isCanvas": true,
   "isLoading": false,
@@ -80,10 +81,10 @@
   "positioning": "fixed",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 50,
+  "rightColumn": 45,
   "shouldScrollContents": true,
-  "topRow": 12,
+  "topRow": 9,
   "type": "STATBOX_WIDGET",
-  "widgetId": "199gt3kqws",
-  "widgetName": "Statbox1CopyCopy"
+  "widgetId": "srwm4v85wo",
+  "widgetName": "StatBox_Tzvira"
 }
