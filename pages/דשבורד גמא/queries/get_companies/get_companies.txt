@@ -1,0 +1,1 @@
+SELECT DISTINCT company FROM gama_policies WHERE company IS NOT NULL ORDER BY company

@@ -1,0 +1,1 @@
+SELECT CASE WHEN product IN ('פנסיה', 'פנסיה משלימה') THEN 'פנסיה' WHEN product IN ('גמל', 'גמל להשקעה') THEN 'גמל' WHEN product = 'השתלמות' THEN 'השתלמות' WHEN product = 'ריסק' THEN 'ריסק' WHEN product IN ('בריאות', 'מחלות קשות') THEN 'בריאות' ELSE 'אחר' END AS product_group, COUNT(*) AS count FROM gama_policies GROUP BY product_group ORDER BY count DESC
