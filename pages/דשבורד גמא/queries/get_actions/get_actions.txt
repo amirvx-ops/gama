@@ -1,0 +1,1 @@
+SELECT DISTINCT action AS label, action AS value FROM gama_policies WHERE action IS NOT NULL ORDER BY action

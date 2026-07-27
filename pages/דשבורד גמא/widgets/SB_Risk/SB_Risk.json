@@ -38,7 +38,7 @@
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "ofet9t1h9f",
+      "parentId": "2i0ta1xipu",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -46,8 +46,8 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "nz2d5k8jyb",
-      "widgetName": "Canvas1CopyCopy"
+      "widgetId": "ct7cmeimpz",
+      "widgetName": "Canvas1CopyCopyCopy1"
     }
   ],
   "dynamicBindingPathList": [
@@ -65,7 +65,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "09vmd14e5g",
-  "leftColumn": 31,
+  "leftColumn": 20,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "mobileBottomRow": 24,
@@ -81,10 +81,10 @@
   "positioning": "fixed",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 41,
+  "rightColumn": 30,
   "shouldScrollContents": true,
   "topRow": 16,
   "type": "STATBOX_WIDGET",
-  "widgetId": "ofet9t1h9f",
-  "widgetName": "Statbox1CopyCopy"
+  "widgetId": "2i0ta1xipu",
+  "widgetName": "SB_Risk"
 }

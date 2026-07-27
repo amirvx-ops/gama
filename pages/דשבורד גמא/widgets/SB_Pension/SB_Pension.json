@@ -38,7 +38,7 @@
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "gku3vccsr5",
+      "parentId": "fzn32s5s7y",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -46,8 +46,8 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "sioxk1dldp",
-      "widgetName": "Canvas1CopyCopyCopy"
+      "widgetId": "vaof8xkx3c",
+      "widgetName": "Canvas1"
     }
   ],
   "dynamicBindingPathList": [
@@ -65,7 +65,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "09vmd14e5g",
-  "leftColumn": 9,
+  "leftColumn": 53,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "mobileBottomRow": 24,
@@ -81,10 +81,10 @@
   "positioning": "fixed",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 19,
+  "rightColumn": 63,
   "shouldScrollContents": true,
   "topRow": 16,
   "type": "STATBOX_WIDGET",
-  "widgetId": "gku3vccsr5",
-  "widgetName": "Statbox1CopyCopyCopy"
+  "widgetId": "fzn32s5s7y",
+  "widgetName": "SB_Pension"
 }

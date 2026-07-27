@@ -38,7 +38,7 @@
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "2i0ta1xipu",
+      "parentId": "gku3vccsr5",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -46,8 +46,8 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "ct7cmeimpz",
-      "widgetName": "Canvas1CopyCopyCopy1"
+      "widgetId": "sioxk1dldp",
+      "widgetName": "Canvas1CopyCopyCopy"
     }
   ],
   "dynamicBindingPathList": [
@@ -65,7 +65,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "09vmd14e5g",
-  "leftColumn": 20,
+  "leftColumn": 9,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "mobileBottomRow": 24,
@@ -81,10 +81,10 @@
   "positioning": "fixed",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 30,
+  "rightColumn": 19,
   "shouldScrollContents": true,
   "topRow": 16,
   "type": "STATBOX_WIDGET",
-  "widgetId": "2i0ta1xipu",
-  "widgetName": "Statbox1CopyCopyCopy1"
+  "widgetId": "gku3vccsr5",
+  "widgetName": "SB_Health"
 }
