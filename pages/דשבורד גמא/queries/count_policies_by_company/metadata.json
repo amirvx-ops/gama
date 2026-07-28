@@ -29,7 +29,7 @@
     ],
     "name": "count_policies_by_company",
     "pageId": "דשבורד גמא",
-    "runBehaviour": "MANUAL",
+    "runBehaviour": "AUTOMATIC",
     "userSetOnLoad": false
   }
 }

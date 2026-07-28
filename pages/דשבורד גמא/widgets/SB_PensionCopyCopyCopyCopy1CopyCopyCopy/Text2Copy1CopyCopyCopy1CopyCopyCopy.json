@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 8,
+  "bottomRow": 4,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -11,43 +11,40 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "1.25rem",
+  "fontSize": "1rem",
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
   "key": "2rpqmixluw",
-  "leftColumn": 26,
+  "leftColumn": 17,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 8,
+  "mobileBottomRow": 4,
   "mobileLeftColumn": 1,
   "mobileRightColumn": 37,
-  "mobileTopRow": 4,
+  "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "originalBottomRow": 8,
-  "originalTopRow": 4,
+  "originalBottomRow": 5,
+  "originalTopRow": 0,
   "overflow": "NONE",
-  "parentId": "vaof8xkx3c",
+  "parentId": "cuuiozqcfq",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 42,
+  "rightColumn": 53,
   "shouldTruncate": false,
-  "text": "{{count_policies_by_product.data.find(r => r.product_group === 'פנסיה')?.count || 0}}",
-  "textAlign": "LEFT",
-  "textColor": "#1e3a8a",
-  "topRow": 4,
+  "text": "מנורה",
+  "textAlign": "CENTER",
+  "textColor": "#a16207",
+  "topRow": 0,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "lionxhmz0o",
-  "widgetName": "Text3"
+  "widgetId": "nwx387ktmc",
+  "widgetName": "Text2Copy1CopyCopyCopy1CopyCopyCopy"
 }
