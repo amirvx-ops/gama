@@ -38,7 +38,7 @@
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "92x53x018l",
+      "parentId": "6tgd8gxhh5",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -46,8 +46,8 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "cuuiozqcfq",
-      "widgetName": "Canvas1Copy1CopyCopyCopy1CopyCopyCopy"
+      "widgetId": "qxszqu9npx",
+      "widgetName": "Canvas1Copy1CopyCopyCopy1CopyCopy"
     }
   ],
   "dynamicBindingPathList": [
@@ -65,7 +65,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "09vmd14e5g",
-  "leftColumn": 31,
+  "leftColumn": 20,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "mobileBottomRow": 24,
@@ -81,10 +81,10 @@
   "positioning": "fixed",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 41,
+  "rightColumn": 30,
   "shouldScrollContents": true,
   "topRow": 39,
   "type": "STATBOX_WIDGET",
-  "widgetId": "92x53x018l",
-  "widgetName": "SB_PensionCopyCopyCopyCopy1CopyCopyCopy"
+  "widgetId": "6tgd8gxhh5",
+  "widgetName": "SB_Ayalon"
 }

@@ -38,7 +38,7 @@
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "72eh7un3fm",
+      "parentId": "a63x398e9r",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -46,8 +46,8 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "l6ejhsh25p",
-      "widgetName": "Canvas1Copy1CopyCopy"
+      "widgetId": "304394r0hm",
+      "widgetName": "Canvas1Copy1CopyCopy1"
     }
   ],
   "dynamicBindingPathList": [
@@ -65,7 +65,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "09vmd14e5g",
-  "leftColumn": 53,
+  "leftColumn": 42,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "mobileBottomRow": 24,
@@ -81,10 +81,10 @@
   "positioning": "fixed",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 63,
+  "rightColumn": 52,
   "shouldScrollContents": true,
   "topRow": 27,
   "type": "STATBOX_WIDGET",
-  "widgetId": "72eh7un3fm",
-  "widgetName": "SB_PensionCopyCopyCopy"
+  "widgetId": "a63x398e9r",
+  "widgetName": "SB_TotalPremia"
 }

@@ -1,15 +1,15 @@
 {
   "animateLoading": true,
-  "backgroundColor": "#fef9c3",
+  "backgroundColor": "#fee2e2",
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 49,
+  "bottomRow": 38,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 100,
+      "bottomRow": 110,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -38,7 +38,7 @@
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "6tgd8gxhh5",
+      "parentId": "72eh7un3fm",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -46,8 +46,8 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "qxszqu9npx",
-      "widgetName": "Canvas1Copy1CopyCopyCopy1CopyCopy"
+      "widgetId": "l6ejhsh25p",
+      "widgetName": "Canvas1Copy1CopyCopy"
     }
   ],
   "dynamicBindingPathList": [
@@ -65,7 +65,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "09vmd14e5g",
-  "leftColumn": 20,
+  "leftColumn": 53,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "mobileBottomRow": 24,
@@ -73,18 +73,18 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 10,
   "needsErrorInfo": false,
-  "originalBottomRow": 49,
-  "originalTopRow": 39,
+  "originalBottomRow": 38,
+  "originalTopRow": 27,
   "parentColumnSpace": 14.234375,
   "parentId": "0",
   "parentRowSpace": 10,
   "positioning": "fixed",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 30,
+  "rightColumn": 63,
   "shouldScrollContents": true,
-  "topRow": 39,
+  "topRow": 27,
   "type": "STATBOX_WIDGET",
-  "widgetId": "6tgd8gxhh5",
-  "widgetName": "SB_PensionCopyCopyCopyCopy1CopyCopy"
+  "widgetId": "72eh7un3fm",
+  "widgetName": "SB_TotalPolicies"
 }

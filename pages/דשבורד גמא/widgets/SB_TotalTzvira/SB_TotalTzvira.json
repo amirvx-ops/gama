@@ -38,7 +38,7 @@
       "mobileTopRow": 0,
       "needsErrorInfo": false,
       "parentColumnSpace": 1,
-      "parentId": "a63x398e9r",
+      "parentId": "g7ns5pvv0u",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -46,8 +46,8 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "304394r0hm",
-      "widgetName": "Canvas1Copy1CopyCopy1"
+      "widgetId": "oqw8eue5jk",
+      "widgetName": "Canvas1Copy1Copy"
     }
   ],
   "dynamicBindingPathList": [
@@ -65,7 +65,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "09vmd14e5g",
-  "leftColumn": 42,
+  "leftColumn": 31,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "mobileBottomRow": 24,
@@ -81,10 +81,10 @@
   "positioning": "fixed",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 52,
+  "rightColumn": 41,
   "shouldScrollContents": true,
   "topRow": 27,
   "type": "STATBOX_WIDGET",
-  "widgetId": "a63x398e9r",
-  "widgetName": "SB_PensionCopyCopyCopy1"
+  "widgetId": "g7ns5pvv0u",
+  "widgetName": "SB_TotalTzvira"
 }
