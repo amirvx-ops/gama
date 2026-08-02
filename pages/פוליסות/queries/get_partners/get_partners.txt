@@ -1,0 +1,1 @@
+SELECT DISTINCT partner_name AS label, partner_name AS value FROM gama_policies_with_partner WHERE partner_name IS NOT NULL UNION SELECT DISTINCT partner_name AS label, partner_name AS value FROM gama_meetings_with_partner WHERE partner_name IS NOT NULL ORDER BY label

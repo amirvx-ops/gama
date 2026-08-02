@@ -1,1 +1,4 @@
-SELECT * FROM gama_policies WHERE (COALESCE({{company_filter.selectedOptionValue}}, '') = '' OR company = {{company_filter.selectedOptionValue}}) ORDER BY created_at DESC LIMIT 500
+SELECT id, client_name, id_number, product, company, phone, premia, tzvira, date, action, created_at, partner_name FROM gama_policies_with_partner WHERE (COALESCE(NULLIF({{CompanyFilter.selectedOptionValue}}, ''), company) IS NOT DISTINCT FROM company) AND (COALESCE(NULLIF({{ActionFilter.selectedOptionValue}}, ''), action) IS NOT DISTINCT FROM action) AND (COALESCE(NULLIF({{PartnerFilter.selectedOptionValue}}, ''), partner_name) IS NOT DISTINCT FROM partner_name) AND (COALESCE(NULLIF({{YearFilter.selectedOptionValue}}, ''), EXTRACT(YEAR FROM date)::text) IS NOT DISTINCT FROM EXTRACT(YEAR FROM date)::text) AND (COALESCE(NULLIF({{MonthFilter.selectedOptionValue}}, ''), EXTRACT(MONTH FROM date)::text) IS NOT DISTINCT FROM EXTRACT(MONTH FROM date)::text) ORDER BY date DESC LIMIT 500
+
+
+
