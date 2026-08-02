@@ -1,0 +1,1 @@
+SELECT partner_name, leads, tzvirat_pension, pension_current, gemel_hishtalmut, sikunim FROM partner_summary ORDER BY leads DESC
