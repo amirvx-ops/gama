@@ -40,9 +40,10 @@
     "id_number",
     "name",
     "meeting_status",
-    "sent_at"
+    "sent_at",
+    "partner_name"
   ],
-  "columnUpdatedAt": 1784488228834,
+  "columnUpdatedAt": 1785658097165,
   "columnWidthMap": {},
   "customIsLoading": false,
   "customIsLoadingValue": "",
@@ -94,6 +95,9 @@
     },
     {
       "key": "evenRowColor"
+    },
+    {
+      "key": "primaryColumns.partner_name.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -331,6 +335,40 @@
       "label": "שם לקוח",
       "notation": "standard",
       "originalId": "name",
+      "sticky": "",
+      "textColor": "#18181b",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "partner_name": {
+      "alias": "partner_name",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "cellBackground": "#f4f4f5",
+      "columnType": "text",
+      "computedValue": "{{(() => { const tableData = Table1.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentRow[\"partner_name\"])) : partner_name })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "fontStyle": "",
+      "horizontalAlignment": "LEFT",
+      "id": "partner_name",
+      "index": 8,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "מקור ליד",
+      "notation": "standard",
+      "originalId": "partner_name",
       "sticky": "",
       "textColor": "#18181b",
       "textSize": "0.875rem",
