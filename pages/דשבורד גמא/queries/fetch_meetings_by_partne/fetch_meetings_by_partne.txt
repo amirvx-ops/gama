@@ -1,0 +1,1 @@
+SELECT partner_name, neqbeu, hitkaymu, percent_hitkaymu FROM meetings_by_partner
