@@ -41,7 +41,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 49,
   "shouldTruncate": false,
-  "text": "{{count_policies_by_company.data.find(r => r.company === 'מגדל')?.count || 0}}",
+  "text": "{{count_policies_by_company.data.find(r => r.company === 'מגדל')?.policy_count ?? 0}}",
   "textAlign": "LEFT",
   "textColor": "#a16207",
   "topRow": 4,

@@ -41,7 +41,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 42,
   "shouldTruncate": false,
-  "text": "{{count_policies_by_product.data.find(r => r.product_group === 'ריסק')?.count || 0}}",
+  "text": "{{count_policies_by_product.data.find(r => r.product === 'ריסק')?.policy_count ?? 0}}",
   "textAlign": "LEFT",
   "textColor": "#1e3a8a",
   "topRow": 4,
