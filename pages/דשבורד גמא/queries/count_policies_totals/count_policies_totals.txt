@@ -1,2 +1,3 @@
-SELECT COUNT(*) AS total_policies, SUM(premia) AS total_premia, SUM(tzvira) AS total_tzvira, AVG(premia) AS avg_premia FROM gama_policies_with_partner WHERE COALESCE(NULLIF({{PartnerFilter.selectedOptionValue}}, ''), partner_name) IS NOT DISTINCT FROM partner_name
+SELECT COUNT(*) AS total_policies, SUM(premia) AS total_premia, SUM(tzvira) AS total_tzvira, AVG(premia) AS avg_premia FROM gama_policies_with_partner WHERE (COALESCE(NULLIF({{PartnerFilter.selectedOptionValue}}, ''), partner_name) IS NOT DISTINCT FROM partner_name) AND (COALESCE(NULLIF({{YearFilter.selectedOptionValue}}, ''), EXTRACT(YEAR FROM date)::text) IS NOT DISTINCT FROM EXTRACT(YEAR FROM date)::text) AND (COALESCE(NULLIF({{MonthFilter.selectedOptionValue}}, ''), EXTRACT(MONTH FROM date)::text) IS NOT DISTINCT FROM EXTRACT(MONTH FROM date)::text)
+
 

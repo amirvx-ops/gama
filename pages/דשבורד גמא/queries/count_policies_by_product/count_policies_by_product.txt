@@ -1,2 +1,1 @@
-SELECT product, COUNT(*) AS policy_count FROM gama_policies_with_partner WHERE (COALESCE(NULLIF({{PartnerFilter.selectedOptionValue}}, ''), partner_name) IS NOT DISTINCT FROM partner_name) GROUP BY product ORDER BY policy_count DESC
-
+SELECT product, COUNT(*) AS policy_count FROM gama_policies_with_partner WHERE (COALESCE(NULLIF({{PartnerFilter.selectedOptionValue}}, ''), partner_name) IS NOT DISTINCT FROM partner_name) AND (COALESCE(NULLIF({{YearFilter.selectedOptionValue}}, ''), EXTRACT(YEAR FROM date)::text) IS NOT DISTINCT FROM EXTRACT(YEAR FROM date)::text) AND (COALESCE(NULLIF({{MonthFilter.selectedOptionValue}}, ''), EXTRACT(MONTH FROM date)::text) IS NOT DISTINCT FROM EXTRACT(MONTH FROM date)::text) GROUP BY product ORDER BY policy_count DESC
