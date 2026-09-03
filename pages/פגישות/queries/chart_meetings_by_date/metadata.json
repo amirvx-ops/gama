@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT TO_CHAR(created_time::date, 'DD/MM/YYYY') AS \"date\", COUNT(*) AS \"count\" FROM gama_meetings GROUP BY created_time::date ORDER BY created_time::date\n",
+      "body": "SELECT TO_CHAR(created_time, 'DD/MM/YYYY') AS date, COUNT(*) AS count FROM gama_meetings_with_partner WHERE (COALESCE(NULLIF({{PartnerFilter.selectedOptionValue}}, ''), partner_name) IS NOT DISTINCT FROM partner_name) AND (COALESCE(NULLIF({{YearFilter.selectedOptionValue}}, ''), EXTRACT(YEAR FROM created_time)::text) IS NOT DISTINCT FROM EXTRACT(YEAR FROM created_time)::text) AND (COALESCE(NULLIF({{MonthFilter.selectedOptionValue}}, ''), EXTRACT(MONTH FROM created_time)::text) IS NOT DISTINCT FROM EXTRACT(MONTH FROM created_time)::text) GROUP BY TO_CHAR(created_time, 'DD/MM/YYYY') ORDER BY MIN(created_time)\n",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -22,7 +22,11 @@
       "name": "Supabase",
       "pluginId": "postgres-plugin"
     },
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "name": "chart_meetings_by_date",
     "pageId": "פגישות",
     "runBehaviour": "AUTOMATIC",

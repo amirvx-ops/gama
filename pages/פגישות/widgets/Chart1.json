@@ -3,11 +3,11 @@
   "allowScroll": false,
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 106,
+  "bottomRow": 103,
   "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
   "chartData": {
     "mquwn0bplh": {
-      "data": "{{[{x: \"התקיימה\", y: count_meetings_stats.data[0].held}, {x: \"לא התקיימה\", y: count_meetings_stats.data[0].not_held}, {x: \"נדחתה\", y: count_meetings_stats.data[0].postponed}]}}",
+      "data": "{{[{x: \"התקיימה\", y: Number(count_meetings_stats.data[0].completed)}, {x: \"לא התקיימה\", y: Number(count_meetings_stats.data[0].cancelled)}, {x: \"נדחתה\", y: Number(count_meetings_stats.data[0].postponed)}]}}\n\n",
       "seriesName": "סטטוס פגישות"
     }
   },
@@ -92,8 +92,8 @@
   "mobileRightColumn": 61,
   "mobileTopRow": 70,
   "needsErrorInfo": true,
-  "originalBottomRow": 103,
-  "originalTopRow": 77,
+  "originalBottomRow": 106,
+  "originalTopRow": 80,
   "parentColumnSpace": 14.234375,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -101,7 +101,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 62,
   "showDataPointLabel": true,
-  "topRow": 80,
+  "topRow": 77,
   "type": "CHART_WIDGET",
   "version": 1,
   "widgetId": "p2kgbfydij",
